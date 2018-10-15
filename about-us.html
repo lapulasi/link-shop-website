@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+</head>
+<body>
+<header>
+    <div>
+        <img src="images/login.png" alt="">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li class="pro-center">
+                <a href="javascript:;">产品中心</a>
+                <ol class="select">
+                    <li><span><a href="production-center-cstj.html">测试推荐</a></span><span>看看我适合什么产品？</span></li>
+                    <li><span><a>试用申请</a></span><span>90天免费试用</span></li>
+                    <li><span><a href="production-center-cpfa.html">产品方案</a></span><span>详细产品组合介绍</span></li>
+                    <li><span><a>APP下载</a></span><span>安卓/IOS</span></li>
+                    <li><span><a>产品支持</a></span><span>试用说明及常见问题</span></li>
+                </ol>
+            </li>
+            <li class="current"><a href="javascript:;">关于我们</a></li>
+            <li class="null-label"><a href="javascript:;">客户说</a></li>
+            <li class="null-label"><a href="javascript:;">新零售之风</a></li>
+            <li class="null-label"><a href="javascript:;">登录使用</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <div id="fullpage">
+        <div class="section">
+            <img src="images/about-1.png" alt="">
+        </div>
+        <div class="section">
+            <img src="images/about-2.png" alt="">
+        </div>
+        <div class="section">
+            <img src="images/about-3.jpg" alt="">
+        </div>
+        <div class="section fp-auto-height">
+            <div class="myContent">
+                <img src="images/footer.png" alt="">
+            </div>
+        </div>
+    </div>
+</main>
+<aside>
+    <button>我要试用</button>
+    <button>我要合作</button>
+</aside>
+<div class="tips">
+    <div class="tips-panel">正在建设，敬请期待......</div>
+</div>
+<script src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script src="js/pro-center.js"></script>
+<script>
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: true,
+        navigation: true,// 右侧点点
+    });
+</script>
+</body>
+</html>
